@@ -229,11 +229,22 @@ HEADER / ABOUT US ↓
 
 */
 
+header {
+    position: relative;
+}
 
 header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header__description {
+    width: 40%;
+}
+
+.header__img--wrapper {
+    width: 60%;
 }
 
 
