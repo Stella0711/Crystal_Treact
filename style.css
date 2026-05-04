@@ -932,6 +932,10 @@ TESTIMONIALS ↓
     margin-top: 4px; 
 }
 
+.fa-star {
+    color: rgb(246, 173, 85);
+}
+
 .testimonial__bottom {
     display: flex;
     justify-content: space-between;
@@ -977,7 +981,15 @@ TESTIMONIALS ↓
     line-height: 1.5;
 }
 
+.testimonial__button svg {
+    width: 16px;
+    height: 16px;
+}
 
+#testimonials .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
 
 
 
