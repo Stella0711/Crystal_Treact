@@ -1291,6 +1291,19 @@ footer {
     opacity: 1;
 }
 
+/* 
+
+MOBILE MENU ↓
+
+*/
+
+.btn__menu--svg {
+    color: #243e63
+}
+
+.btn__menu--svg:hover {
+    color:#6415ff
+}
 
 /* 
 
@@ -1328,6 +1341,9 @@ MOBILE RESPONSIVENESS ↓
 
     .btn__menu {
         display: block;
+    }
+    .nav__links {
+        display: none;
     }
     header .row {
         flex-direction: column;
